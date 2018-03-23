@@ -90,120 +90,8 @@ SizingPeriod:DesignDay,
     0.0;                     !- Sky Clearness
 
 SizingPeriod:DesignDay,
-    Chicago Midway Ap Ann Clg .4% Condns Enth=>MDB,  !- Name
-    7,                       !- Month
-    21,                      !- Day of Month
-    SummerDesignDay,         !- Day Type
-    34.0,                    !- Maximum Dry-Bulb Temperature {C}
-    9.2,                     !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    DewPoint,                !- Humidity Condition Type
-    23.0,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    0.0,                     !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    98900.0,                 !- Barometric Pressure {Pa}
-    5.7,                     !- Wind Speed {m/s}
-    220.0,                   !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    AshraeClearSky,          !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    1.0;                     !- Sky Clearness
-
-SizingPeriod:DesignDay,
-    Chicago Midway Ap Ann Clg .4% Condns DB=>MWB (month 6),  !- Name
-    6,                       !- Month
-    21,                      !- Day of Month
-    SummerDesignDay,         !- Day Type
-    33.0,                    !- Maximum Dry-Bulb Temperature {C}
-    9.2,                     !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    DewPoint,                !- Humidity Condition Type
-    17.0,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    0.0,                     !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    99300.0,                 !- Barometric Pressure {Pa}
-    6.2,                     !- Wind Speed {m/s}
-    220.0,                   !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    AshraeClearSky,          !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    1.0;                     !- Sky Clearness
-
-SizingPeriod:DesignDay,
     Chicago Midway Ap Ann Clg .4% Condns DB=>MWB (month 7),  !- Name
     7,                       !- Month
-    21,                      !- Day of Month
-    SummerDesignDay,         !- Day Type
-    33.0,                    !- Maximum Dry-Bulb Temperature {C}
-    9.2,                     !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    DewPoint,                !- Humidity Condition Type
-    17.0,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    0.0,                     !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    99300.0,                 !- Barometric Pressure {Pa}
-    6.2,                     !- Wind Speed {m/s}
-    220.0,                   !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    AshraeClearSky,          !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    1.0;                     !- Sky Clearness
-
-SizingPeriod:DesignDay,
-    Chicago Midway Ap Ann Clg .4% Condns DB=>MWB (month 8),  !- Name
-    8,                       !- Month
-    21,                      !- Day of Month
-    SummerDesignDay,         !- Day Type
-    33.0,                    !- Maximum Dry-Bulb Temperature {C}
-    9.2,                     !- Daily Dry-Bulb Temperature Range {deltaC}
-    DefaultMultipliers,      !- Dry-Bulb Temperature Range Modifier Type
-    ,                        !- Dry-Bulb Temperature Range Modifier Day Schedule Name
-    DewPoint,                !- Humidity Condition Type
-    17.0,                    !- Wetbulb or DewPoint at Maximum Dry-Bulb {C}
-    ,                        !- Humidity Condition Day Schedule Name
-    ,                        !- Humidity Ratio at Maximum Dry-Bulb {kgWater/kgDryAir}
-    0.0,                     !- Enthalpy at Maximum Dry-Bulb {J/kg}
-    ,                        !- Daily Wet-Bulb Temperature Range {deltaC}
-    99300.0,                 !- Barometric Pressure {Pa}
-    6.2,                     !- Wind Speed {m/s}
-    220.0,                   !- Wind Direction {deg}
-    No,                      !- Rain Indicator
-    No,                      !- Snow Indicator
-    No,                      !- Daylight Saving Time Indicator
-    AshraeClearSky,          !- Solar Model Indicator
-    ,                        !- Beam Solar Day Schedule Name
-    ,                        !- Diffuse Solar Day Schedule Name
-    ,                        !- ASHRAE Clear Sky Optical Depth for Beam Irradiance (taub) {dimensionless}
-    ,                        !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance (taud) {dimensionless}
-    1.0;                     !- Sky Clearness
-
-SizingPeriod:DesignDay,
-    Chicago Midway Ap Ann Clg .4% Condns DB=>MWB (month 9),  !- Name
-    9,                       !- Month
     21,                      !- Day of Month
     SummerDesignDay,         !- Day Type
     33.0,                    !- Maximum Dry-Bulb Temperature {C}
@@ -18469,22 +18357,22 @@ OutputControl:Table:Style,
 Output:Variable,
     *,                       !- Key Value
     Heat Exchanger Total Cooling Energy,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Thermostat Heating Setpoint Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Thermostat Cooling Setpoint Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Baseboard Total Heating Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
@@ -18501,7 +18389,7 @@ Output:Variable,
 Output:Variable,
     *,                       !- Key Value
     Cooling Tower Heat Transfer Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
@@ -18542,12 +18430,12 @@ Output:Variable,
 Output:Variable,
     *,                       !- Key Value
     Zone Radiant HVAC Cooling Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Radiant HVAC Heating Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
@@ -18560,192 +18448,192 @@ Output:Variable,
 Output:Variable,
     DOAS Relief Air Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Supply Fan Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Supply Fan Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Supply Fan Outlet,  !- Key Value
     System Node Current Density,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Cooling Coil Outlet,!- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Cooling Coil Outlet,!- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Cooling Coil Outlet,!- Key Value
     System Node Setpoint Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Cooling Coil Outlet,!- Key Value
     System Node Setpoint Maximum Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Heating Coil Outlet,!- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Humidifier Outlet,  !- Key Value
     System Node Setpoint Minimum Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Mixed Air Outlet,   !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Mixed Air Outlet,   !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Heat Recovery Supply Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Heat Recovery Supply Outlet,  !- Key Value
     System Node Setpoint Maximum Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DOAS Heat Recovery Supply Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Current Density,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Setpoint Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Current Density Volume Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Supply Path Inlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Mixed Air Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     VAV Sys 1 Mixed Air Outlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Supply Fan Outlet,  !- Key Value
     System Node Current Density,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Setpoint Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Humidity Ratio,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Cooling Coil Outlet,  !- Key Value
     System Node Current Density Volume Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Supply Path Inlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Mixed Air Outlet,  !- Key Value
     System Node Last Timestep Temperature,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     DXVAV Sys 1 Mixed Air Outlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Air Heat Balance System Air Transfer Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Air Heat Balance System Convective Heat Gain Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_C03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_C03 PTAC SUPPLY INLET,  !- Key Value
@@ -18778,7 +18666,7 @@ Output:Variable,
 Output:Variable,
     L002_P01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P01 PTAC SUPPLY INLET,  !- Key Value
@@ -18811,7 +18699,7 @@ Output:Variable,
 Output:Variable,
     L002_P07 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P07 PTAC SUPPLY INLET,  !- Key Value
@@ -18844,7 +18732,7 @@ Output:Variable,
 Output:Variable,
     L002_P04 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P04 PTAC SUPPLY INLET,  !- Key Value
@@ -18877,7 +18765,7 @@ Output:Variable,
 Output:Variable,
     L003_P02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P02 PTAC SUPPLY INLET,  !- Key Value
@@ -18910,7 +18798,7 @@ Output:Variable,
 Output:Variable,
     L003_P03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P03 PTAC SUPPLY INLET,  !- Key Value
@@ -18943,7 +18831,7 @@ Output:Variable,
 Output:Variable,
     L002_P08 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P08 PTAC SUPPLY INLET,  !- Key Value
@@ -18976,7 +18864,7 @@ Output:Variable,
 Output:Variable,
     L001_C02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_C02 PTAC SUPPLY INLET,  !- Key Value
@@ -19009,7 +18897,7 @@ Output:Variable,
 Output:Variable,
     L001_P06 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P06 PTAC SUPPLY INLET,  !- Key Value
@@ -19042,7 +18930,7 @@ Output:Variable,
 Output:Variable,
     L001_P03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P03 PTAC SUPPLY INLET,  !- Key Value
@@ -19075,7 +18963,7 @@ Output:Variable,
 Output:Variable,
     L001_P02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P02 PTAC SUPPLY INLET,  !- Key Value
@@ -19108,7 +18996,7 @@ Output:Variable,
 Output:Variable,
     L003_P06 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P06 PTAC SUPPLY INLET,  !- Key Value
@@ -19141,7 +19029,7 @@ Output:Variable,
 Output:Variable,
     L001_P07 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P07 PTAC SUPPLY INLET,  !- Key Value
@@ -19174,7 +19062,7 @@ Output:Variable,
 Output:Variable,
     L003_C03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_C03 PTAC SUPPLY INLET,  !- Key Value
@@ -19207,7 +19095,7 @@ Output:Variable,
 Output:Variable,
     L003_P01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P01 PTAC SUPPLY INLET,  !- Key Value
@@ -19240,7 +19128,7 @@ Output:Variable,
 Output:Variable,
     L002_P05 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P05 PTAC SUPPLY INLET,  !- Key Value
@@ -19273,7 +19161,7 @@ Output:Variable,
 Output:Variable,
     L001_C03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_C03 PTAC SUPPLY INLET,  !- Key Value
@@ -19306,7 +19194,7 @@ Output:Variable,
 Output:Variable,
     L003_P08 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P08 PTAC SUPPLY INLET,  !- Key Value
@@ -19339,7 +19227,7 @@ Output:Variable,
 Output:Variable,
     L002_C02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_C02 PTAC SUPPLY INLET,  !- Key Value
@@ -19372,7 +19260,7 @@ Output:Variable,
 Output:Variable,
     L001_P01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P01 PTAC SUPPLY INLET,  !- Key Value
@@ -19405,7 +19293,7 @@ Output:Variable,
 Output:Variable,
     L003_P05 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P05 PTAC SUPPLY INLET,  !- Key Value
@@ -19438,7 +19326,7 @@ Output:Variable,
 Output:Variable,
     L001_P04 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P04 PTAC SUPPLY INLET,  !- Key Value
@@ -19471,7 +19359,7 @@ Output:Variable,
 Output:Variable,
     L001_C04 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_C04 PTAC SUPPLY INLET,  !- Key Value
@@ -19504,7 +19392,7 @@ Output:Variable,
 Output:Variable,
     L001_P08 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P08 PTAC SUPPLY INLET,  !- Key Value
@@ -19537,7 +19425,7 @@ Output:Variable,
 Output:Variable,
     L003_C02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_C02 PTAC SUPPLY INLET,  !- Key Value
@@ -19570,7 +19458,7 @@ Output:Variable,
 Output:Variable,
     L002_P02 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P02 PTAC SUPPLY INLET,  !- Key Value
@@ -19603,7 +19491,7 @@ Output:Variable,
 Output:Variable,
     L003_P07 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P07 PTAC SUPPLY INLET,  !- Key Value
@@ -19636,7 +19524,7 @@ Output:Variable,
 Output:Variable,
     L002_C01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_C01 PTAC SUPPLY INLET,  !- Key Value
@@ -19669,7 +19557,7 @@ Output:Variable,
 Output:Variable,
     L003_C01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_C01 PTAC SUPPLY INLET,  !- Key Value
@@ -19702,7 +19590,7 @@ Output:Variable,
 Output:Variable,
     L002_P06 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P06 PTAC SUPPLY INLET,  !- Key Value
@@ -19735,7 +19623,7 @@ Output:Variable,
 Output:Variable,
     L001_C01 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_C01 PTAC SUPPLY INLET,  !- Key Value
@@ -19768,7 +19656,7 @@ Output:Variable,
 Output:Variable,
     L002_P03 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L002_P03 PTAC SUPPLY INLET,  !- Key Value
@@ -19801,7 +19689,7 @@ Output:Variable,
 Output:Variable,
     L003_P04 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L003_P04 PTAC SUPPLY INLET,  !- Key Value
@@ -19834,7 +19722,7 @@ Output:Variable,
 Output:Variable,
     L001_P05 DOAS Supply Inlet,  !- Key Value
     System Node Mass Flow Rate,  !- Variable Name
-    hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     L001_P05 PTAC SUPPLY INLET,  !- Key Value
@@ -19867,12 +19755,12 @@ Output:Variable,
 Output:Variable,
     *,                       !- Key Value
     Zone Thermal Comfort Fanger Model PMV,  !- Variable Name
-    Hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Zone Thermal Comfort Fanger Model PPD,  !- Variable Name
-    Hourly;                  !- Reporting Frequency
+    daily;                  !- Reporting Frequency
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:DIAGNOSTICS ===========
